@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar{
+    background-color: rgb(37, 163, 163) !important;
+}
+
+.carousel-item{
+   height: calc(100vh - 56px);
+}
+
+#sobre{
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#servicos{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#sobre.px-5{
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+}
+
+#servicos img{
+    display: block;
+    width: 50% !important;
+    height: 30% !important;
+    margin: 0 auto;
+    border-radius: 15px;
+    margin-bottom: 16px;
+}
+
+#carousel .carousel-item::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #00000075;
+}
+
+#carousel .carousel-caption{
+    right: 0;
+    top: 40.5%;
+    text-align: left;
+}
